@@ -4,9 +4,10 @@ on:
   push:
     branches:
       - main
+
 jobs:
-  Hello_world:
-    run-on: ubuntu-18.04
+  hello_world:
+    runs-on: ubuntu-18.04
     steps:
       - name: Echo the messages
         run: echo "Hello guys"
