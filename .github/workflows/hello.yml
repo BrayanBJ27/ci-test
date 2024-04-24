@@ -14,5 +14,5 @@ jobs:
           echo "Hola chicos"
       - name: Dime la fecha
         run: date
-      - run: month
+      - run: date
       - run: ls -l
