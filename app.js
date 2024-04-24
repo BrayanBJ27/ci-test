@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const app2;
 const { version } = require('./package.json')
 
 // Heroku dynamically sets a port
